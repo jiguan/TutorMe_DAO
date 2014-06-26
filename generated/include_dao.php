@@ -1,0 +1,47 @@
+<?php
+	//include all DAO files
+	require_once('class/sql/Connection.class.php');
+	require_once('class/sql/ConnectionFactory.class.php');
+	require_once('class/sql/ConnectionProperty.class.php');
+	require_once('class/sql/QueryExecutor.class.php');
+	require_once('class/sql/Transaction.class.php');
+	require_once('class/sql/SqlQuery.class.php');
+	require_once('class/core/ArrayList.class.php');
+	require_once('class/dao/DAOFactory.class.php');
+ 	
+	require_once('class/dao/CourseDAO.class.php');
+	require_once('class/dto/Course.class.php');
+	require_once('class/mysql/CourseMySqlDAO.class.php');
+	require_once('class/mysql/ext/CourseMySqlExtDAO.class.php');
+	require_once('class/dao/CourseofferDAO.class.php');
+	require_once('class/dto/Courseoffer.class.php');
+	require_once('class/mysql/CourseofferMySqlDAO.class.php');
+	require_once('class/mysql/ext/CourseofferMySqlExtDAO.class.php');
+	require_once('class/dao/LocationDAO.class.php');
+	require_once('class/dto/Location.class.php');
+	require_once('class/mysql/LocationMySqlDAO.class.php');
+	require_once('class/mysql/ext/LocationMySqlExtDAO.class.php');
+	require_once('class/dao/RatingDAO.class.php');
+	require_once('class/dto/Rating.class.php');
+	require_once('class/mysql/RatingMySqlDAO.class.php');
+	require_once('class/mysql/ext/RatingMySqlExtDAO.class.php');
+	require_once('class/dao/ScheduleDAO.class.php');
+	require_once('class/dto/Schedule.class.php');
+	require_once('class/mysql/ScheduleMySqlDAO.class.php');
+	require_once('class/mysql/ext/ScheduleMySqlExtDAO.class.php');
+	require_once('class/dao/TimetableDAO.class.php');
+	require_once('class/dto/Timetable.class.php');
+	require_once('class/mysql/TimetableMySqlDAO.class.php');
+	require_once('class/mysql/ext/TimetableMySqlExtDAO.class.php');
+	require_once('class/dao/TutorDAO.class.php');
+	require_once('class/dto/Tutor.class.php');
+	require_once('class/mysql/TutorMySqlDAO.class.php');
+	require_once('class/mysql/ext/TutorMySqlExtDAO.class.php');
+	require_once('class/dao/UserDAO.class.php');
+	require_once('class/dto/User.class.php');
+	require_once('class/mysql/UserMySqlDAO.class.php');
+	require_once('class/mysql/ext/UserMySqlExtDAO.class.php');
+	require_once('class/dto/CourseofferTimetable.class.php');
+	require_once('class/dto/CourseofferCourse.class.php');
+
+?>
